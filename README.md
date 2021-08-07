@@ -17,4 +17,9 @@ docker run --rm -it -p 8080:8080 llanesguru/httpecho:latest
 Custom response
 ```
 docker run --rm -it -p 8080:8080 -e RESPONSE_TEXT="This is the response text" llanesguru/httpecho:latest
-```# httpecho
+```
+
+Download from docker hub
+```
+docker pull llanesguru/httpecho:latest
+```
